@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Dashboard - EarnApp Demo</title>
+<link rel="stylesheet" href="assets/style.css" />
+</head>
+<body class="light">
+<header class="topbar">
+  <div class="brand">EarnApp <span class="badge">Demo</span></div>
+  <nav>
+    <a href="dashboard.html">Dashboard</a>
+    <a href="referrals.html">Referrals</a>
+    <a href="tasks.html">Tasks</a>
+    <a href="transactions.html">Transactions</a>
+    <a href="profile.html">Profile</a>
+  </nav>
+  <div class="actions">
+    <button id="toggleTheme">Dark</button>
+  </div>
+</header>
+
+<main class="container grid-3">
+  <aside class="card profile-card">
+    <img src="https://via.placeholder.com/100" class="avatar" alt="avatar"/>
+    <h2>Tasin89 <span class="verified">✔</span></h2>
+    <p class="muted">Dhaka, Bangladesh</p>
+    <div class="status">
+      <span class="pill green">Active</span>
+      <button class="btn small">Edit Profile</button>
+    </div>
+
+    <h4>Membership</h4>
+    <p>General • <strong>Upgrade to Prime</strong></p>
+    <a class="btn full" href="settings.html#membership">Upgrade</a>
+  </aside>
+
+  <section class="card stats">
+    <h3>My Balance</h3>
+    <div class="grid-3 small-cards">
+      <div class="stat-card"><small>Job Wallet</small><strong>৳ 26</strong></div>
+      <div class="stat-card"><small>Invite Wallet</small><strong>৳ 0</strong></div>
+      <div class="stat-card"><small>Total Earn</small><strong>৳ 106</strong></div>
+    </div>
+
+    <h3 style="margin-top:20px">Daily Income</h3>
+    <div class="income-row">
+      <div>Today: <strong>৳ 13</strong></div>
+      <div>Tasks done: <strong>4</strong></div>
+    </div>
+
+    <h3 style="margin-top:20px">Quick Actions</h3>
+    <div class="actions-row">
+      <a class="btn" href="tasks.html">Do Tasks</a>
+      <a class="btn ghost" href="referrals.html">Share Referral</a>
+      <a class="btn" href="transactions.html">Withdraw</a>
+    </div>
+  </section>
+
+  <section class="card leaderboard">
+    <h3>Top Referrers</h3>
+    <ol class="leaderlist">
+      <li><strong>alamin6448</strong> <span>25</span></li>
+      <li><strong>fahim393</strong> <span>20</span></li>
+      <li><strong>remon12345</strong> <span>20</span></li>
+      <li><strong>idck5000</strong> <span>11</span></li>
+    </ol>
+    <a class="btn ghost full" href="leaderboard.html">See full leaderboard</a>
+  </section>
+</main>
+
+<footer class="footer">
+  <small>© 2025 EarnApp — Demo</small>
+</footer>
+<script src="assets/app.js"></script>
+</body>
+</html>

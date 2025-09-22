@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Referrals - EarnApp</title>
+<link rel="stylesheet" href="assets/style.css" />
+</head>
+<body class="light">
+<header class="topbar">
+  <div class="brand">EarnApp <span class="badge">Demo</span></div>
+  <nav>
+    <a href="dashboard.html">Dashboard</a>
+    <a href="referrals.html">Referrals</a>
+    <a href="tasks.html">Tasks</a>
+    <a href="transactions.html">Transactions</a>
+  </nav>
+  <div class="actions"><button id="toggleTheme">Dark</button></div>
+</header>
+
+<main class="container">
+  <section class="card">
+    <h2>Your Referral</h2>
+    <p>Share this link to invite friends and earn referral bonus.</p>
+    <div class="ref-box">
+      <input id="refLink" readonly value="https://your-username.github.io/earn-demo/?ref=ABCD1234" />
+      <button class="btn" id="copyRef">Copy</button>
+    </div>
+    <p>Total Referrals: <strong id="refCount">25</strong></p>
+    <h3 style="margin-top:16px">Leaderboard (top 5)</h3>
+    <ol>
+      <li>alamin6448 — 25</li>
+      <li>fahim393 — 20</li>
+      <li>remon12345 — 20</li>
+    </ol>
+  </section>
+</main>
+<footer class="footer"><small>© 2025 EarnApp — Demo</small></footer>
+<script src="assets/app.js"></script>
+</body>
+</html>
